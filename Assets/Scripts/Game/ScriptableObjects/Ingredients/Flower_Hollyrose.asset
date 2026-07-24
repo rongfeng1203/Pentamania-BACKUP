@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ead1d8eafc349d19b7a44493b5aaf84, type: 3}
+  m_Name: Flower_Hollyrose
+  m_EditorClassIdentifier: 
+  ingredientId: Hollyrose_Flower
+  audioType: 0
+  maxStack: 2147483647
+  baseIngredient: {fileID: 321784516921344936, guid: d7ee38ad4640e4223af8690441190235, type: 3}
+  mesh: {fileID: -6885164274559482579, guid: 5338d967e32b14f2eb69a05aadcd26e1, type: 3}
+  material: {fileID: 2100000, guid: 8535db2f7a3644bccb9191962cc85be7, type: 2}
+  scale: {x: 13.10447, y: 13.10447, z: 13.10447}

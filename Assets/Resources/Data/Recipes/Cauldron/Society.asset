@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e573a81ccbc74ec448b8206ed04c2cc0, type: 3}
+  m_Name: Society
+  m_EditorClassIdentifier: 
+  requirements:
+  - ingredientTag: {fileID: 11400000, guid: e15919704693749d492234c87767cd97, type: 2}
+    min: 1
+    max: 9999
+  - ingredientTag: {fileID: 11400000, guid: 692405114681e47c6bc384a85c623e94, type: 2}
+    min: -1
+    max: -9999
+  - ingredientTag: {fileID: 11400000, guid: 3ceca486b0f3748928051686afd55f3e, type: 2}
+    min: -1
+    max: -9999
+  products:
+  - itemProduct:
+      def: {fileID: 0}
+      amount: 0
+      tags: []
+    fluidProduct:
+      def: {fileID: 11400000, guid: 0ddd0714bcc944bd6ab39f5ae047a5fe, type: 2}
+      volume: 3
+      tags:
+      - ingredientTagDef: {fileID: 11400000, guid: 2f4dc93216e47421d929a326c4e5068d, type: 2}
+        value: 1000
+    amount: 1

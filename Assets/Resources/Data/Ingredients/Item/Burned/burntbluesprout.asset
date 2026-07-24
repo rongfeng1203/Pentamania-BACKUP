@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ead1d8eafc349d19b7a44493b5aaf84, type: 3}
+  m_Name: burntbluesprout
+  m_EditorClassIdentifier: 
+  ingredientId: burned_bluesprout
+  audioType: 5
+  maxStack: 2147483647
+  baseIngredient: {fileID: 2117301605557392943, guid: 74d64bf4732784a5e811efbec6e14af7, type: 3}

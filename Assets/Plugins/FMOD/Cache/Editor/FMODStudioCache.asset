@@ -1,0 +1,1846 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8603852567242571095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Release Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Release Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Release Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3899257679
+    data2: 3599410296
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8297779940375084325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voicelines/Voiceline Bank/Potion Voicelines/Universal Solvent
+  m_EditorClassIdentifier: 
+  Path: event:/Voicelines/Voiceline Bank/Potion Voicelines/Universal Solvent
+  Guid:
+    Data1: 1070377463
+    Data2: 1187446737
+    Data3: 1454006685
+    Data4: 632614612
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6857
+--- !u!114 &-8113626858470133396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Items/Water/Water Pour End
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Items/Water/Water Pour End
+  Guid:
+    Data1: -1137881088
+    Data2: 1200771249
+    Data3: 740175034
+    Data4: -733388044
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-8018978690835935118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Cauldron/Cauldron Success
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Cauldron/Cauldron Success
+  Guid:
+    Data1: 1384141467
+    Data2: 1278226316
+    Data3: 441310900
+    Data4: 1828930382
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 6200
+  Length: 2444
+--- !u!114 &-7469812294390147716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dream Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Dream Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Dream Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3127343720
+    data2: 3887458235
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7293857432867894745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Release Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Release Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3899257679
+    data2: 3599410296
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7196946186116885929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Cauldron/Cauldron Bubbling
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Cauldron/Cauldron Bubbling
+  Guid:
+    Data1: 534690647
+    Data2: 1264843255
+    Data3: 1691974319
+    Data4: 2099274433
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24900
+--- !u!114 &-6954325560230693448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Items/Water/Water Pour
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Items/Water/Water Pour
+  Guid:
+    Data1: 544050964
+    Data2: 1194990558
+    Data3: 1306728341
+    Data4: -377056197
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 6200
+  Length: 18600
+--- !u!114 &-6793383085743842736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Venom Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Venom Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Venom Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 315341051
+    data2: 2921796214
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6596262278903084399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cthulu/Tentacle Spawn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cthulu/Tentacle Spawn
+  Guid:
+    Data1: -98281547
+    Data2: 1291840017
+    Data3: -173064518
+    Data4: -1005776668
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5400
+  Length: 11995
+--- !u!114 &-6462225673093671230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambience/Clock
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambience/Clock
+  Guid:
+    Data1: 1728632125
+    Data2: 1173614630
+    Data3: -1989184856
+    Data4: 753729805
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2600
+  Length: 983
+--- !u!114 &-6423602140287110012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Item
+  m_EditorClassIdentifier: 
+  Name: Item
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1352254272
+    data2: 1740701203
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5725713812574539641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Chaos Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Chaos Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2875295052
+    data2: 1549951479
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5699656736956818383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Magic Circle/Magic Circle Submit
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Magic Circle/Magic Circle Submit
+  Guid:
+    Data1: -1912658319
+    Data2: 1236446776
+    Data3: -24481895
+    Data4: -593797943
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 4000
+  Length: 2191
+--- !u!114 &-4841401090273976155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Nightmare Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Nightmare Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Nightmare Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3424241382
+    data2: 3600237323
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4689099102888441288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Mortar and Pestle/Mortar Grind
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Mortar and Pestle/Mortar Grind
+  Guid:
+    Data1: -1970746542
+    Data2: 1117668142
+    Data3: 1268917678
+    Data4: 1686685621
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0.62
+  MaxDistance: 2600
+  Length: 674
+--- !u!114 &-4548589820840188691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Truth Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Truth Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Truth Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 999400194
+    data2: 1960773299
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4352216224616514025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bunson Burner Intensity
+  m_EditorClassIdentifier: 
+  Name: Bunson Burner Intensity
+  StudioPath: parameter:/Bunson Burner Intensity
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1211670910
+    data2: 3671121393
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4232353672855612151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Grab Soul/Soul Grabbed
+  m_EditorClassIdentifier: 
+  Name: Soul Grabbed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1358246134
+    data2: 272857345
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3945016783306899576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Venom Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Venom Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 315341051
+    data2: 2921796214
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3894235454982896224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Decay Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Decay Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1665288817
+    data2: 3432530570
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3842344267907604558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Bunsen Burner/Burn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Bunsen Burner/Burn
+  Guid:
+    Data1: 1227421382
+    Data2: 1285139529
+    Data3: 1714267045
+    Data4: 1512668271
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 8000
+  Length: 1928
+--- !u!114 &-3474315408662018273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BGM Intensity
+  m_EditorClassIdentifier: 
+  Name: BGM Intensity
+  StudioPath: parameter:/BGM Intensity
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2763456249
+    data2: 1371815228
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2655333294754650716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Items/Item Drop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Items/Item Drop
+  Guid:
+    Data1: 1644634628
+    Data2: 1264900231
+    Data3: -615494236
+    Data4: -1308304967
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1961036291584582177}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2106600699525326897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music Manager/Scene
+  m_EditorClassIdentifier: 
+  Name: Scene
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3745309336
+    data2: 926556841
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1818356706709865343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Crystal Ball/Usage
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Crystal Ball/Usage
+  Guid:
+    Data1: 1744007504
+    Data2: 1341368322
+    Data3: -2137781346
+    Data4: 226545938
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 750
+  Length: 1050
+--- !u!114 &-1338451231105212416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Scorch Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Scorch Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 119463096
+    data2: 1479808871
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1247449436572750870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Bunsen Burner/Start
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Bunsen Burner/Start
+  Guid:
+    Data1: -68654755
+    Data2: 1160798455
+    Data3: 761694345
+    Data4: -938588912
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 6800
+  Length: 450
+--- !u!114 &-704798429096465749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Scene
+  m_EditorClassIdentifier: 
+  Name: Scene
+  StudioPath: parameter:/Scene
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3745309336
+    data2: 926556841
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-698375335699616379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level BGM
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level BGM
+  Guid:
+    Data1: 1330748335
+    Data2: 1144249797
+    Data3: -1468178503
+    Data4: -77623433
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6197941085388269817}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 91320
+--- !u!114 &-208808985973638836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambience/Magic Circle
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambience/Magic Circle
+  Guid:
+    Data1: -1429970890
+    Data2: 1336520134
+    Data3: 1235916435
+    Data4: -2071683092
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 2800
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 7007597937853415162}
+  - {fileID: 7331892254997206150}
+  EditorEvents:
+  - {fileID: 6643733940546000642}
+  - {fileID: -2655333294754650716}
+  - {fileID: 4731318884870673262}
+  - {fileID: -208808985973638836}
+  - {fileID: 5184573832703971959}
+  - {fileID: 8693049539123728622}
+  - {fileID: -1818356706709865343}
+  - {fileID: -4689099102888441288}
+  - {fileID: -7196946186116885929}
+  - {fileID: 2541304810716501392}
+  - {fileID: -1247449436572750870}
+  - {fileID: 816514633978461151}
+  - {fileID: 3473761341425427480}
+  - {fileID: 2925648311631678380}
+  - {fileID: -8018978690835935118}
+  - {fileID: 4031233794676861411}
+  - {fileID: 5220586962914892814}
+  - {fileID: -698375335699616379}
+  - {fileID: 5937492902317621425}
+  - {fileID: 2232812497800918422}
+  - {fileID: 5171161484816695697}
+  - {fileID: 3764693701470197403}
+  - {fileID: -8297779940375084325}
+  - {fileID: 3585026753387032668}
+  - {fileID: -6462225673093671230}
+  - {fileID: -8113626858470133396}
+  - {fileID: -6954325560230693448}
+  - {fileID: 7188457520073437151}
+  - {fileID: -5699656736956818383}
+  - {fileID: -6596262278903084399}
+  - {fileID: -3842344267907604558}
+  EditorParameters:
+  - {fileID: -3474315408662018273}
+  - {fileID: -4352216224616514025}
+  - {fileID: -4548589820840188691}
+  - {fileID: 4349827319758681573}
+  - {fileID: 7347295884685123188}
+  - {fileID: 3845206497963986469}
+  - {fileID: -8603852567242571095}
+  - {fileID: 12941570004562122}
+  - {fileID: 4353694239554158917}
+  - {fileID: -4841401090273976155}
+  - {fileID: 8357183034957249334}
+  - {fileID: -704798429096465749}
+  - {fileID: -7469812294390147716}
+  - {fileID: -6793383085743842736}
+  MasterBanks:
+  - {fileID: 7331892254997206150}
+  StringsBanks:
+  - {fileID: 7007597937853415162}
+  cacheVersion: 131848
+  cacheTime: 638896887780460091
+  SerializableEventsDict:
+  - key: event:/SFX/Ambience/Fireplace
+    index: 0
+  - key: event:/SFX/Items/Item Drop
+    index: 1
+  - key: event:/SFX/Machines/Cauldron/[TODO] Cauldron Shaking
+    index: 2
+  - key: event:/SFX/Ambience/Magic Circle
+    index: 3
+  - key: event:/Voicelines/Voiceline Manager
+    index: 4
+  - key: event:/SFX/Machines/Crystal Ball/Ambience
+    index: 5
+  - key: event:/SFX/Machines/Crystal Ball/Usage
+    index: 6
+  - key: event:/SFX/Machines/Mortar and Pestle/Mortar Grind
+    index: 7
+  - key: event:/SFX/Machines/Cauldron/Cauldron Bubbling
+    index: 8
+  - key: event:/SFX/Items/Item Pickup
+    index: 9
+  - key: event:/SFX/Machines/Bunsen Burner/Start
+    index: 10
+  - key: event:/SFX/Machines/Cauldron/Cauldron Failure
+    index: 11
+  - key: event:/SFX/Machines/Bunsen Burner/Loop
+    index: 12
+  - key: event:/Music/Music Manager
+    index: 13
+  - key: event:/SFX/Machines/Cauldron/Cauldron Success
+    index: 14
+  - key: event:/SFX/Items/Book Flip
+    index: 15
+  - key: event:/SFX/Machines/Cauldron/Cauldron Start Cooking
+    index: 16
+  - key: event:/Music/Level BGM
+    index: 17
+  - key: event:/SFX/Machines/Cauldron/Cauldron Take Ingredient
+    index: 18
+  - key: snapshot:/Pause Snapshot
+    index: 19
+  - key: event:/SFX/Items/Item Land
+    index: 20
+  - key: event:/Voicelines/Voiceline Bank/Potion Voicelines/Grab Soul
+    index: 21
+  - key: event:/Voicelines/Voiceline Bank/Potion Voicelines/Universal Solvent
+    index: 22
+  - key: event:/SFX/Machines/Bunsen Burner/Stop
+    index: 23
+  - key: event:/SFX/Ambience/Clock
+    index: 24
+  - key: event:/SFX/Items/Water/Water Pour End
+    index: 25
+  - key: event:/SFX/Items/Water/Water Pour
+    index: 26
+  - key: event:/SFX/Items/Water/Water Pour Start
+    index: 27
+  - key: event:/SFX/Magic Circle/Magic Circle Submit
+    index: 28
+  - key: event:/SFX/Cthulu/Tentacle Spawn
+    index: 29
+  - key: event:/SFX/Machines/Bunsen Burner/Burn
+    index: 30
+--- !u!114 &12941570004562122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Potion Brewed
+  Min: 0
+  Max: 11
+  Default: 0
+  ID:
+    data1: 3057413236
+    data2: 2857747689
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &144085531541322041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music Manager/BGM Intensity
+  m_EditorClassIdentifier: 
+  Name: BGM Intensity
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2763456249
+    data2: 1371815228
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &816514633978461151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Cauldron/Cauldron Failure
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Cauldron/Cauldron Failure
+  Guid:
+    Data1: 1942069349
+    Data2: 1216714419
+    Data3: -1214921826
+    Data4: -36242945
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 10000
+  Length: 4500
+--- !u!114 &994889190085851164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Soul Grabbed
+  m_EditorClassIdentifier: 
+  Name: Soul Grabbed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1358246134
+    data2: 272857345
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1097171040487465183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Voiceline Event
+  m_EditorClassIdentifier: 
+  Name: Voiceline Event
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 0
+  ID:
+    data1: 803023022
+    data2: 1827502624
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1961036291584582177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Drop/Item
+  m_EditorClassIdentifier: 
+  Name: Item
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1352254272
+    data2: 1740701203
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2232812497800918422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Pause Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Pause Snapshot
+  Guid:
+    Data1: -837523251
+    Data2: 1133390374
+    Data3: -1667767132
+    Data4: 698828227
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2449621225548233971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Truth Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Truth Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 999400194
+    data2: 1960773299
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2541304810716501392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Items/Item Pickup
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Items/Item Pickup
+  Guid:
+    Data1: 1116238938
+    Data2: 1158247008
+    Data3: -1240631402
+    Data4: 1703743749
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6423602140287110012}
+  MinDistance: 1
+  MaxDistance: 10000
+  Length: 0
+--- !u!114 &2925648311631678380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music Manager
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music Manager
+  Guid:
+    Data1: -1202821001
+    Data2: 1180920344
+    Data3: 849759122
+    Data4: 1273590336
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2106600699525326897}
+  - {fileID: 144085531541322041}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3438436818721415865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Power Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Power Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1778446584
+    data2: 962594893
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3473761341425427480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Bunsen Burner/Loop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Bunsen Burner/Loop
+  Guid:
+    Data1: -170651289
+    Data2: 1307278262
+    Data3: -1262414975
+    Data4: -377833863
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8355819736302701620}
+  MinDistance: 1
+  MaxDistance: 5600
+  Length: 23100
+--- !u!114 &3585026753387032668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Bunsen Burner/Stop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Bunsen Burner/Stop
+  Guid:
+    Data1: 1340951723
+    Data2: 1300598686
+    Data3: 1580128174
+    Data4: 1659384432
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2800
+  Length: 450
+--- !u!114 &3764693701470197403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voicelines/Voiceline Bank/Potion Voicelines/Grab Soul
+  m_EditorClassIdentifier: 
+  Path: event:/Voicelines/Voiceline Bank/Potion Voicelines/Grab Soul
+  Guid:
+    Data1: -40103954
+    Data2: 1289354736
+    Data3: -612713061
+    Data4: 151262523
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4232353672855612151}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7000
+--- !u!114 &3845206497963986469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Scorch Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Scorch Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Scorch Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 119463096
+    data2: 1479808871
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4031233794676861411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Items/Book Flip
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Items/Book Flip
+  Guid:
+    Data1: -1497003871
+    Data2: 1100725350
+    Data3: 1987660933
+    Data4: -906565752
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2600
+  Length: 1218
+--- !u!114 &4288925366719887843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 11
+  Default: 0
+  ID:
+    data1: 3057413236
+    data2: 2857747689
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4349827319758681573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Decay Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Decay Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Decay Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1665288817
+    data2: 3432530570
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4353694239554158917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Power Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Power Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Power Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1778446584
+    data2: 962594893
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4731318884870673262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Cauldron/[TODO] Cauldron Shaking
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Cauldron/[TODO] Cauldron Shaking
+  Guid:
+    Data1: 1567138087
+    Data2: 1164444255
+    Data3: 1771818399
+    Data4: 479271033
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5200
+  Length: 0
+--- !u!114 &5130879522679856555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Land/Location
+  m_EditorClassIdentifier: 
+  Name: Location
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1515576524
+    data2: 3659043458
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5171161484816695697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Items/Item Land
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Items/Item Land
+  Guid:
+    Data1: -324479022
+    Data2: 1273091263
+    Data3: 1396033979
+    Data4: -847865861
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5130879522679856555}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5184573832703971959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voicelines/Voiceline Manager
+  m_EditorClassIdentifier: 
+  Path: event:/Voicelines/Voiceline Manager
+  Guid:
+    Data1: 894827064
+    Data2: 1206192326
+    Data3: 574943111
+    Data4: -1276927163
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 994889190085851164}
+  - {fileID: -3894235454982896224}
+  - {fileID: 2449621225548233971}
+  - {fileID: 3438436818721415865}
+  - {fileID: 5205708491378822493}
+  - {fileID: 4288925366719887843}
+  - {fileID: -1338451231105212416}
+  - {fileID: -7293857432867894745}
+  - {fileID: 1097171040487465183}
+  - {fileID: -3945016783306899576}
+  - {fileID: 5667527147056879119}
+  - {fileID: -5725713812574539641}
+  MinDistance: 1
+  MaxDistance: 2600
+  Length: 0
+--- !u!114 &5205708491378822493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Nightmare Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Nightmare Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3424241382
+    data2: 3600237323
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5220586962914892814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Cauldron/Cauldron Start Cooking
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Cauldron/Cauldron Start Cooking
+  Guid:
+    Data1: -666351186
+    Data2: 1222189429
+    Data3: 504997792
+    Data4: -917354686
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2800
+  Length: 2000
+--- !u!114 &5667527147056879119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Voiceline Manager/Dream Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Dream Potion Brewed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3127343720
+    data2: 3887458235
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5937492902317621425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Cauldron/Cauldron Take Ingredient
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Cauldron/Cauldron Take Ingredient
+  Guid:
+    Data1: 1481764276
+    Data2: 1213018498
+    Data3: -1848391281
+    Data4: -361930961
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 6800
+  Length: 874
+--- !u!114 &6197941085388269817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level BGM/BGM Intensity
+  m_EditorClassIdentifier: 
+  Name: BGM Intensity
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2763456249
+    data2: 1371815228
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6643733940546000642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambience/Fireplace
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambience/Fireplace
+  Guid:
+    Data1: -1574554977
+    Data2: 1271393539
+    Data3: -1040736083
+    Data4: -1256367266
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 6800
+  Length: 8906
+--- !u!114 &7007597937853415162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638896887780460091
+  FileSizes:
+  - Name: Desktop
+    Value: 3618
+  Exists: 1
+--- !u!114 &7188457520073437151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Items/Water/Water Pour Start
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Items/Water/Water Pour Start
+  Guid:
+    Data1: -1233949149
+    Data2: 1316669084
+    Data3: -1213907288
+    Data4: 586318840
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &7331892254997206150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638896887780433725
+  FileSizes:
+  - Name: Desktop
+    Value: 10964128
+  Exists: 1
+--- !u!114 &7347295884685123188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Soul Grabbed
+  m_EditorClassIdentifier: 
+  Name: Soul Grabbed
+  StudioPath: parameter:/Potion Brewed Status/Soul Grabbed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1358246134
+    data2: 272857345
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8355819736302701620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Loop/Bunson Burner Intensity
+  m_EditorClassIdentifier: 
+  Name: Bunson Burner Intensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1211670910
+    data2: 3671121393
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8357183034957249334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chaos Potion Brewed
+  m_EditorClassIdentifier: 
+  Name: Chaos Potion Brewed
+  StudioPath: parameter:/Potion Brewed Status/Chaos Potion Brewed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2875295052
+    data2: 1549951479
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8693049539123728622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Machines/Crystal Ball/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Machines/Crystal Ball/Ambience
+  Guid:
+    Data1: -138429875
+    Data2: 1240618630
+    Data3: 358938297
+    Data4: -280394261
+  Banks:
+  - {fileID: 7331892254997206150}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1800
+  Length: 27428

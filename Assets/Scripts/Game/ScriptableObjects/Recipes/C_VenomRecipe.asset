@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e573a81ccbc74ec448b8206ed04c2cc0, type: 3}
+  m_Name: C_VenomRecipe
+  m_EditorClassIdentifier: 
+  machineId: Cauldron
+  reactants:
+  - ingredient: {fileID: 11400000, guid: d4e96d4b7294e3d4da40fe321e44bfaf, type: 2}
+    minAmount: 1
+    maxAmount: 1
+    proportional: 0
+  - ingredient: {fileID: 11400000, guid: 90bcd443b648e4b43862f5377d53fb81, type: 2}
+    minAmount: 1
+    maxAmount: 1
+    proportional: 0
+  - ingredient: {fileID: 11400000, guid: d217ea5f2e86c76449b9c65070c584ad, type: 2}
+    minAmount: 1
+    maxAmount: 1
+    proportional: 0
+  products:
+  - ingredient: {fileID: 11400000, guid: 2b6c5917aa169c64d834f9b9039334f9, type: 2}
+    amount: 1
+  explosionCurve:
+    deviationToPower:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

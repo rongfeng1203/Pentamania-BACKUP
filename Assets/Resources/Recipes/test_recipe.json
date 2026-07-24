@@ -1,0 +1,17 @@
+{
+    "requiredReactants": [
+        {
+            "ingredientId": "Salt",
+            "quantity": 1,
+            "isStrict": false
+        },
+        {
+            "ingredientId": "Sand",
+            "quantity": 1,
+            "isStrict": false
+        }
+    ],
+    "productPaths": [
+        "crystalmetal"
+    ]
+}

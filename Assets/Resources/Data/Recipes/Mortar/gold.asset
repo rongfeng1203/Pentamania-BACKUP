@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369ecc3e6a66490f8beb6a910ec5a016, type: 3}
+  m_Name: gold
+  m_EditorClassIdentifier: 
+  reactants:
+  - ingredient: {fileID: 11400000, guid: d80d7fd453f44488f9e2f533143a5d45, type: 2}
+    amount: 1
+  product:
+    def: {fileID: 11400000, guid: 383b68924796947409fa0d30f12e714b, type: 2}
+    volume: 1
+    tags:
+    - ingredientTagDef: {fileID: 11400000, guid: 7f9f8fb98c2244de38d0931e842943d3, type: 2}
+      value: 0.001

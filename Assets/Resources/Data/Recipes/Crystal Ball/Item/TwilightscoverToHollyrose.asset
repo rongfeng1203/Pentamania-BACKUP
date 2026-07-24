@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a63e392e2f768e4393b5068e3b9ca58, type: 3}
+  m_Name: TwilightscoverToHollyrose
+  m_EditorClassIdentifier: 
+  reactant: {fileID: 11400000, guid: a873e25d16ece4621b4a2040431bc3a3, type: 2}
+  product: {fileID: 11400000, guid: 6976239fbd32a41aba8b449511e8848e, type: 2}

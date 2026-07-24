@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ead1d8eafc349d19b7a44493b5aaf84, type: 3}
+  m_Name: Result_Book
+  m_EditorClassIdentifier: 
+  ingredientId: Book
+  audioType: 0
+  maxStack: 2147483647
+  baseIngredient: {fileID: 4288337553784599149, guid: c8fd4e58bf1a55f48b7e1ae6378ac4ce, type: 3}
+  mesh: {fileID: 0}
+  material: {fileID: 0}
+  scale: {x: 0.75, y: 0.25, z: 1.5}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ead1d8eafc349d19b7a44493b5aaf84, type: 3}
+  m_Name: Flower_Krakenmouth
+  m_EditorClassIdentifier: 
+  ingredientId: Krakenmouth_Flower
+  audioType: 0
+  maxStack: 2147483647
+  baseIngredient: {fileID: 6567017794989959617, guid: 8b6c3fbe42e0e4d16842d8293cc1975b, type: 3}
+  mesh: {fileID: -2050698691639549936, guid: 9854a3eb751dc49b5b95841a3c819482, type: 3}
+  material: {fileID: 2100000, guid: 2e3261ef475414f098c07d0b92401430, type: 2}
+  scale: {x: 27.15023, y: 27.15023, z: 27.15023}

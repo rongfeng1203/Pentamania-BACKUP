@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369ecc3e6a66490f8beb6a910ec5a016, type: 3}
+  m_Name: wigsmoundplane
+  m_EditorClassIdentifier: 
+  reactants:
+  - ingredient: {fileID: 11400000, guid: d585509dbf2274270b45b05e6211c4d7, type: 2}
+    amount: 1
+  product:
+    def: {fileID: 11400000, guid: 1cef7d044d67d403db2c1e6f739e6297, type: 2}
+    volume: 1
+    tags:
+    - ingredientTagDef: {fileID: 11400000, guid: 7f9f8fb98c2244de38d0931e842943d3, type: 2}
+      value: 0.001

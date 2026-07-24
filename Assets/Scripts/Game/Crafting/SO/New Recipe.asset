@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e573a81ccbc74ec448b8206ed04c2cc0, type: 3}
+  m_Name: New Recipe
+  m_EditorClassIdentifier: 
+  machineId: cauldron
+  reactants:
+  - ingredient: {fileID: 11400000, guid: fa98751245bf34435ad750b6d4ebdf0e, type: 2}
+    minAmount: 1
+    maxAmount: 100
+    proportional: 0
+  - ingredient: {fileID: 11400000, guid: 931fc9bd284bb4ad89176e4935e53286, type: 2}
+    minAmount: 1
+    maxAmount: 100
+    proportional: 0
+  products:
+  - ingredient: {fileID: 11400000, guid: 0103b422758ca4627aebf703ac25c908, type: 2}
+    amount: 20
+  explosionCurve:
+    deviationToPower:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

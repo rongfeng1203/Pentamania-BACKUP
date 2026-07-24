@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e573a81ccbc74ec448b8206ed04c2cc0, type: 3}
+  m_Name: Dream
+  m_EditorClassIdentifier: 
+  requirements:
+  - ingredientTag: {fileID: 11400000, guid: f95178fa52f9d41db80084747caf58d2, type: 2}
+    min: -1.2
+    max: -9999
+  - ingredientTag: {fileID: 11400000, guid: fad7b79c1ad55496c9eb8a5d5746fe94, type: 2}
+    min: -0.6
+    max: -9999
+  products:
+  - itemProduct:
+      def: {fileID: 0}
+      amount: 0
+      tags: []
+    fluidProduct:
+      def: {fileID: 11400000, guid: 6d19594bdf8d24737ac129695994a1a7, type: 2}
+      volume: 3
+      tags:
+      - ingredientTagDef: {fileID: 11400000, guid: f95178fa52f9d41db80084747caf58d2, type: 2}
+        value: -1
+    amount: 1

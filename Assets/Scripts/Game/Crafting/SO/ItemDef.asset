@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ItemDef
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDef
+  ingredientId: test
+  maxStack: 2147483647
+  mesh: {fileID: -4015762243551694402, guid: af3a609f3b06600409a356f4e8ba91ba, type: 3}
+  material: {fileID: 2100000, guid: 53c16fb5d5c516b40a1f6a8fc34132f3, type: 2}
+  scale: {x: 1, y: 1, z: 1}

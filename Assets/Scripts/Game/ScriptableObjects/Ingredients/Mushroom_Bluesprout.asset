@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ead1d8eafc349d19b7a44493b5aaf84, type: 3}
+  m_Name: Mushroom_Bluesprout
+  m_EditorClassIdentifier: 
+  ingredientId: Bluesprout_Mushroom
+  audioType: 0
+  maxStack: 2147483647
+  baseIngredient: {fileID: 33517928165382732, guid: f738f2bbd44794c9dbcb9572f2af8c0f, type: 3}
+  mesh: {fileID: -4121861612023973328, guid: f2e4bfd987541421b9de9ccd10b9ae9e, type: 3}
+  material: {fileID: 2100000, guid: d42484916e4fc41b280bfc00413468e6, type: 2}
+  scale: {x: 23.24333, y: 23.24333, z: 23.24333}

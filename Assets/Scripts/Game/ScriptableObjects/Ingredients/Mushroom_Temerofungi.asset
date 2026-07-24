@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ead1d8eafc349d19b7a44493b5aaf84, type: 3}
+  m_Name: Mushroom_Temerofungi
+  m_EditorClassIdentifier: 
+  ingredientId: Temerofungi_Mushroom
+  audioType: 0
+  maxStack: 2147483647
+  baseIngredient: {fileID: 2059255495669509045, guid: e01533c490468418ca987f5b104deddd, type: 3}
+  mesh: {fileID: -3441492313242690119, guid: 3684c32387e9b4f7ea35f0be34adc348, type: 3}
+  material: {fileID: 2100000, guid: d7b1049cd6e1546f5be2e852ed804e7c, type: 2}
+  scale: {x: 17.46562, y: 17.46562, z: 17.46562}

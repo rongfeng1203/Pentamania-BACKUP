@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa650503154b40e7888554dfdf4f439f, type: 3}
+  m_Name: Task 5
+  m_EditorClassIdentifier: 
+  taskId: task_5
+  displayName: Potion of Power
+  description: 
+  rewards: []
+  icon: {fileID: 21300000, guid: d80233cf482334318b899dbb3600d551, type: 3}
+  requirements:
+  - fluid: {fileID: 11400000, guid: 449de82ca21cb4e34b999684bbcc92c3, type: 2}
+    count: 1
+    tags:
+    - tag: {fileID: 11400000, guid: 4c5a3cb4556584040a09e72ef10f046c, type: 2}
+      amount: 1.5
+      more: 1
+    - tag: {fileID: 11400000, guid: ffe9f5647300f419cb68fdfa43618c70, type: 2}
+      amount: 1
+      more: 1
+    - tag: {fileID: 11400000, guid: 5bdb35c710f434af480aeb1d815dd1d3, type: 2}
+      amount: 0.6
+      more: 0
+    - tag: {fileID: 11400000, guid: 5a6be0cec336644eebb548eed921ff16, type: 2}
+      amount: 0.5
+      more: 0
+    - tag: {fileID: 11400000, guid: 0780897d8ceb34235abd7b6d75d51c58, type: 2}
+      amount: 0.5
+      more: 0
+    otherTags: 0.3

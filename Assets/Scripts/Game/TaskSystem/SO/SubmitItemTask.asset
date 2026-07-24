@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa650503154b40e7888554dfdf4f439f, type: 3}
+  m_Name: SubmitItemTask
+  m_EditorClassIdentifier: 
+  taskId: test1
+  displayName: Test 1
+  description: 1
+  rewards:
+  - prefab: {fileID: 1056829706606133244, guid: aea8eb24b08b04d68a461730f05b9e6c, type: 3}
+    amount: 11
+  requirements:
+  - item: {fileID: 11400000, guid: d4e96d4b7294e3d4da40fe321e44bfaf, type: 2}
+    count: 2

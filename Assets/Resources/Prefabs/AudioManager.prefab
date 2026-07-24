@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5349911082150470889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5260418128447866453}
+  - component: {fileID: 231446010980108296}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5260418128447866453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349911082150470889}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5588855, y: -1.9060202, z: -0.84528124}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &231446010980108296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349911082150470889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b56e711ee8540469ed07603629d991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firepitEvent:
+    Guid:
+      Data1: -1574554977
+      Data2: 1271393539
+      Data3: -1040736083
+      Data4: -1256367266
+    Path: event:/SFX/Ambience/Fireplace
+  clockTickEvent:
+    Guid:
+      Data1: 1728632125
+      Data2: 1173614630
+      Data3: -1989184856
+      Data4: 753729805
+    Path: event:/SFX/Ambience/Clock
+  crystalBallAmbience:
+    Guid:
+      Data1: -138429875
+      Data2: 1240618630
+      Data3: 358938297
+      Data4: -280394261
+    Path: event:/SFX/Machines/Crystal Ball/Ambience
+  crystalBallUsage:
+    Guid:
+      Data1: 1744007504
+      Data2: 1341368322
+      Data3: -2137781346
+      Data4: 226545938
+    Path: event:/SFX/Machines/Crystal Ball/Usage
+  mortarGrind:
+    Guid:
+      Data1: -1970746542
+      Data2: 1117668142
+      Data3: 1268917678
+      Data4: 1686685621
+    Path: event:/SFX/Machines/Mortar and Pestle/Mortar Grind
+  cauldronStart:
+    Guid:
+      Data1: -666351186
+      Data2: 1222189429
+      Data3: 504997792
+      Data4: -917354686
+    Path: event:/SFX/Machines/Cauldron/Cauldron Start Cooking
+  cauldronSuccess:
+    Guid:
+      Data1: 1384141467
+      Data2: 1278226316
+      Data3: 441310900
+      Data4: 1828930382
+    Path: event:/SFX/Machines/Cauldron/Cauldron Success
+  cauldronFailure:
+    Guid:
+      Data1: 1942069349
+      Data2: 1216714419
+      Data3: -1214921826
+      Data4: -36242945
+    Path: event:/SFX/Machines/Cauldron/Cauldron Failure
+  cauldronTakeIngredient:
+    Guid:
+      Data1: 1481764276
+      Data2: 1213018498
+      Data3: -1848391281
+      Data4: -361930961
+    Path: event:/SFX/Machines/Cauldron/Cauldron Take Ingredient
+  cauldronShaking:
+    Guid:
+      Data1: 1567138087
+      Data2: 1164444255
+      Data3: 1771818399
+      Data4: 479271033
+    Path: event:/SFX/Machines/Cauldron/[TODO] Cauldron Shaking
+  magicCircleAccept:
+    Guid:
+      Data1: -1912658319
+      Data2: 1236446776
+      Data3: -24481895
+      Data4: -593797943
+    Path: event:/SFX/Magic Circle/Magic Circle Submit
+  bunsenBurnerStart:
+    Guid:
+      Data1: -68654755
+      Data2: 1160798455
+      Data3: 761694345
+      Data4: -938588912
+    Path: event:/SFX/Machines/Bunsen Burner/Start
+  bunsenBurnerStop:
+    Guid:
+      Data1: 1340951723
+      Data2: 1300598686
+      Data3: 1580128174
+      Data4: 1659384432
+    Path: event:/SFX/Machines/Bunsen Burner/Stop
+  bunsenBurnerBurn:
+    Guid:
+      Data1: 1227421382
+      Data2: 1285139529
+      Data3: 1714267045
+      Data4: 1512668271
+    Path: event:/SFX/Machines/Bunsen Burner/Burn
+  waterPourStart:
+    Guid:
+      Data1: -1233949149
+      Data2: 1316669084
+      Data3: -1213907288
+      Data4: 586318840
+    Path: event:/SFX/Items/Water/Water Pour Start
+  waterPourStop:
+    Guid:
+      Data1: -1137881088
+      Data2: 1200771249
+      Data3: 740175034
+      Data4: -733388044
+    Path: event:/SFX/Items/Water/Water Pour End
+  cthuluTentacleSpawn:
+    Guid:
+      Data1: -98281547
+      Data2: 1291840017
+      Data3: -173064518
+      Data4: -1005776668
+    Path: event:/SFX/Cthulu/Tentacle Spawn
+  pickupEvent:
+    Guid:
+      Data1: 1116238938
+      Data2: 1158247008
+      Data3: -1240631402
+      Data4: 1703743749
+    Path: event:/SFX/Items/Item Pickup
+  dropEvent:
+    Guid:
+      Data1: 1644634628
+      Data2: 1264900231
+      Data3: -615494236
+      Data4: -1308304967
+    Path: event:/SFX/Items/Item Drop
+  pageFlip:
+    Guid:
+      Data1: -1497003871
+      Data2: 1100725350
+      Data3: 1987660933
+      Data4: -906565752
+    Path: event:/SFX/Items/Book Flip
+  voiceLineManager:
+    Guid:
+      Data1: 894827064
+      Data2: 1206192326
+      Data3: 574943111
+      Data4: -1276927163
+    Path: event:/Voicelines/Voiceline Manager
+  musicManager:
+    Guid:
+      Data1: -1202821001
+      Data2: 1180920344
+      Data3: 849759122
+      Data4: 1273590336
+    Path: event:/Music/Music Manager

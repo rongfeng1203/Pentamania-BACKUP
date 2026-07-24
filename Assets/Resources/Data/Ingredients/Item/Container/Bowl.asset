@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ead1d8eafc349d19b7a44493b5aaf84, type: 3}
+  m_Name: Bowl
+  m_EditorClassIdentifier: 
+  ingredientId: bowl
+  audioType: 6
+  maxStack: 2147483647
+  baseIngredient: {fileID: 5639690126711625622, guid: 36cc1b3e73d454405a2cf9eb3e47a9b3, type: 3}
